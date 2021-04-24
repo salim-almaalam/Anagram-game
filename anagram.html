@@ -1,0 +1,47 @@
+<!--DEPENDICIES:
+1- jquery.js
+2- jquery-ui.css
+3-jquery-ui.js
+4- Audio: <audio src="https://www.dropbox.com/s/2tiba1pxdi9kfq9/Countdown%20-%20Clock%20Only%20Theme%20Song%20-%20TelevisionTunes.com.mp3?raw=1" preload></audio>
+5- Font used: <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Anagram game for kids.">
+    <title>Anagram Game</title>
+    <link rel="stylesheet" href="anagram.css">
+    <!-- The following needs to be in the same order, otherwise, sortable is not defined.-->
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+  <script src="C:/Users/s2828/Downloads/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+    <link href="C:/Users/s2828/Downloads/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="Header">
+      <h1> ANAGRAM </h1>
+    </div>
+   <div class="container"></div>
+
+<div class="game">
+  <div class="buttons">
+    <button id="newGame">Start a new game</button>
+    <button id="reveal_answer">reavel answer!</button>
+  </div>
+  
+  <ul id="question">
+  </ul>
+  <ul id="full_solution">
+  </ul>
+
+<audio src="https://www.dropbox.com/s/2tiba1pxdi9kfq9/Countdown%20-%20Clock%20Only%20Theme%20Song%20-%20TelevisionTunes.com.mp3?raw=1" preload></audio>
+   </div>
+
+   <script src="C:/Users/s2828/Downloads/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <script src="anagram.js"></script>
+  </body>
+</html>
